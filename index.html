@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>Moto App</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <header class="
@@ -57,7 +58,11 @@
     gap-x-20 items-center justify-items-center justify-center grid grid-cols-1 md:grid-cols-3
     h-auto w-screen mt-20 pl-20 pr-20 md:pb-20 bg:pb-10 lg:pb-10
 ">
-    <div class="sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96 gap-4 transition duration-500 transform hover:-translate-y-3 flex justify-items-center">
+    <div class="
+    sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96
+    transition duration-500 transform 
+    hover:-translate-y-3 hover:shadow-lg
+    flex justify-items-center gap-4">
         <div class="w-40 h-40 grid grid-col-3 items-center justify-items-center">
             <img class="-mt-14" src="http://preview.hasthemes.com/moto/img/icon/service-icon-1.png" alt="">
         </div>
@@ -66,7 +71,11 @@
             <div class="text-gray-500 pt-2">Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de stan.</div>
         </div>
     </div>
-    <div class="sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96 gap-4 transition duration-500 transform hover:-translate-y-3 flex justify-items-center">
+    <div class="
+    sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96
+    transition duration-500 transform 
+    hover:-translate-y-3 hover:shadow-lg
+    flex justify-items-center gap-4">
         <div class="w-40 h-40  grid grid-col-3 items-center justify-items-center">
             <img class="-mt-14" src="http://preview.hasthemes.com/moto/img/icon/service-icon-2.png" alt="">
         </div>
@@ -75,7 +84,11 @@
             <div class="text-gray-500 pt-2">Lorem Ipsum is slechts een preksts uit het drukkerij- en zetterija Lorem Ipsum is de stan.</div>
         </div>
     </div>
-    <div class="sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96 gap-4 transition duration-500 transform hover:-translate-y-3 flex justify-items-center">
+    <div class="
+    sm:w-96 md:w-48 bg:w-56 lg:w-64 xl:w-96
+    transition duration-500 transform 
+    hover:-translate-y-3 hover:shadow-lg
+    flex justify-items-center gap-4">
         <div class="w-40 h-40  grid grid-col-3 items-center justify-items-center">
             <img class="-mt-14" src="http://preview.hasthemes.com/moto/img/icon/service-icon-3.png" alt="">
         </div>
@@ -112,35 +125,70 @@
     </div>
 </div>
 <div class="p-20 grid sm:grid-cols-2 items-center justify-items-center grid-cols-1 md:grid-cols-3 items-center justify-center w-screen text-center max-">
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-3 rounded-full border-2 border-red-300" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Notification Viewing</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class="
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="
+        w-14 h-14 p-3 rounded-full border-2 border-red-300 
+        material-icons">notifications</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Notification Viewing</div>
+        <div class="mt-4 text-gray-400 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-3 rounded-full border-2 border-red-300" src="https://cdn1.iconfinder.com/data/icons/art-1-outline/300/idea_bulb-512.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Creative Design</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class="
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="
+        w-13 h-13 p-3 rounded-full border-2 border-red-300 
+        material-icons">tungsten</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Creative Design</div>
+        <div class="text-gray-400 mt-4 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-2 rounded-full border-2 border-red-300" src="https://cdn4.iconfinder.com/data/icons/computer-9/63/terminal-512.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Clean Code</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class=" group-hover:text-white transition duration-500
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="
+        w-13 h-13 p-3 rounded-full border-2 border-red-300 
+        material-icons 
+        hover:text-white">subtitles</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Clean Code</div>
+        <div class="text-gray-400 mt-4 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-3 rounded-full border-2 border-red-300" src="https://cdn0.iconfinder.com/data/icons/computer-hardware-13/128/Headphones-512.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Full Free Video Call</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class="
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="
+        w-13 h-13 p-3 rounded-full border-2 border-red-300 
+        material-icons">headphones</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Full Free Video Call</div>
+        <div class="text-gray-400 mt-4 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-3 rounded-full border-2 border-red-300" src="https://cdn4.iconfinder.com/data/icons/ecommerce-24-1/24/Ecommerce_Outline_Contact_Us_Chat-512.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Great Support</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class="
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="w-13 h-13 p-3 rounded-full border-2 border-red-300 material-icons hover:text-white">question_answer</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Great Support</div>
+        <div class="text-gray-400 mt-4 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
-    <div class="w-64 grid justify-items-center hover:bg-red-400 hover:text-white p-5 rounded transition duration-200">
-        <img class="w-14 p-3 rounded-full border-2 border-red-300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/OOjs_UI_icon_heart.svg/1200px-OOjs_UI_icon_heart.svg.png" alt="">
-        <div class="text-lg font-semibold text-gray-700">Unlimited Features</div>
-        <div class="text-gray-400 mt-4">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
+    <div class="
+    grid justify-items-center
+    hover:bg-red-400 hover:text-white
+    w-64 p-5 rounded group
+    transition duration-500">
+        <span class="
+        w-13 h-13 p-3 rounded-full border-2 border-red-300 
+        material-icons">favorite</span>
+        <div class="text-lg font-semibold text-gray-700 group-hover:text-white transition duration-500">Unlimited Features</div>
+        <div class="text-gray-400 mt-4 group-hover:text-white transition duration-500">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem stand</div>
     </div>
 </div>
 
